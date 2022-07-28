@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  padding :0;
+  box-sizing: border-box;
+}
+.Acceuil {
+  background-color: bisque;
+  background-image: url("./images/front-view-tasty-meat-burger-with-cheese-salad-dark-background.jpg") ;
+  width :100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+
+}
+
+.Acceuil header {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px;
+
+
+
+
+}
+
+
+
+.Acceuil ul {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.Acceuil ul li {
+  display: inline-block;
+  padding: 25px;
+  
+
+ 
+
+}
+
+.Acceuil img {
+  width: 200px;
+  height: 150px;
+}
+
+.Acceuil ul li a {
+  text-decoration: none;
+  color : white;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.Acceuil .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 70px;
+  width :60%;
+  margin-left: 50px;
+  
+
+}
+
+.Acceuil div span{
+
+  font-family: cursive;
+  color : rgb(241, 226, 14)
+
+
+}
+
+.Acceuil div p {
+  font-size: 30px;
+}
+
+#btn {
+
+  width: 200px;
+  border :none ;
+  height: 50px;
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 40%);
+  border-radius: 5px;
+  transform: translateX(20px);
+  background-image: linear-gradient(to right, rgb(255, 0, 0) , rgba(255, 255, 0, 0.24));
+  color :white;
+  font-size: 20px;
+
+
+
+
+
+
+}
+
+
+#w {
+
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+#w span {
+
+  transform: translateX(40px);
+  font-size: 20px;
+
+
+}
+
+#s:focus
+{
+    outline: none;
+
+}
+
+
+
+body
+{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.836) , rgba(255, 255, 0, 0.432));
+}
+
+
+i {
+    color :red
+}
+
+
+#card {
+
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 40%);
+  margin: 10px;
+  width:100%;
+  
+}
+
+
+.m-container {
+
+  position: relative;
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+  
+
+  
+
+
+
+}
+
+.m-container:hover{
+
+  cursor:pointer;
+  transform: scale(1.1);
+
+
+
+}
+
+.m-container:hover .overlay{ 
+      opacity :1
+}
+
+.overlay 
+{
+  position: absolute;
+ padding-top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.5s ease ;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+
+#about
+{
+  background-color: #141414;
+
+}
+
+
+#foot
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+#form
+{
+  width : 40%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+
+
+
+
+
+
+}
+
+#form label {
+  width: 100px;
+  display: inline-block;
+}
+
+#form #btn
+{
+  width:150px
+
+
+}
+
+#para
+{
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+    top:-10px;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+#para span 
+{
+  
+  font-family: cursive;
+  color : rgb(241, 226, 14)
+
+}
+
+
+
+.pass
+{
+
+  position: fixed;
+  bottom :10px;
+  right: -60px;
+  width : 60px;
+  height: 60px;
+  background-color: rgb(186, 201, 53);
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 40%);
+  padding: 10px;
+  visibility: visible;
+  z-index: 1;
+  border :2px solid black ;
+  transition: right 0.5s;
+  cursor: pointer;
+
+}
+
+.o
+{
+ 
+  bottom :10px;
+  right: 20px;
+
+ 
+  
+}
+
+img 
+{
+  width:100%
+}
+
+
+
+
+#ing
+{
+  width: 100%;
+  height: 100%;
+  background-color: chartreuse;
+  position: absolute;
+  top:100px;
+  left: 0;
+  z-index: 1;
+
+
+}
+
+
+
+/* #ing
+{
+  width: 100%;
+  height: 100%;
+  background-color: chartreuse;
+  position: absolute;
+  top:100px;
+  left: 0;
+  z-index: 1;
+
+
+
+} */
+#rec 
+{
+  position: relative;
+}
+
+ #ing button
+ {
+   background-color: transparent;
+   border: none;
+   cursor :pointer
+ }
+
+ summary
+ {
+  width: 140px;
+  border :none ;
+  height: 50px;
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 40%);
+  border-radius: 5px;
+  transform: translateX(20px);
+  background-image: linear-gradient(to right, rgb(255, 0, 0) , rgba(255, 255, 0, 0.521));
+  color :#141414;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  left: 60px;
+
+ }
+

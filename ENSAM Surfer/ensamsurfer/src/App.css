@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+  }
+  
+  canvas{
+        display: block;
+        margin: 0 auto;
+        background-color: rgb(170, 227, 250);
+        border: rgb(18, 17, 122) 10px solid;
+              
+      }
+  .header{
+        font-family: cursive;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(10, 63, 107);
+        padding: 20px;
+        text-align: center;
+        margin-bottom:60px ;
+      
+    
+    }
+  .timing{
+      color: darkred;
+      background-color: rgba(240, 128, 128, 0.767);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      padding: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+  
+  }
+
+  .header button
+  {
+      width :130px;
+      height: 50px;
+      color :white;
+    
+      font-size: 20px;
+      background-color: transparent;
+      border-radius: 50px;
+      cursor: pointer;
+      border : 2px solid white;
+      box-shadow: 2px 2px 12px rgb(0 0 0 / 40%);
+  }
+
+
+  .game 
+{
+    width: 600px;
+    height: 400px;
+    margin :auto ;
+    overflow: hidden;
+    background-color: rgb(170, 227, 250);
+    border: rgb(10, 63, 107) 10px solid;
+}
+
+#etu
+{
+    width: 50px;
+    height :50px;
+    background-color: url("");
+    position :relative ;
+    top : 350px ;
+    left:0px
+    
+
+
+
+
+}
+
+.jump
+{
+    animation: jump 1s linear ;
+}
+
+@keyframes jump
+{
+    0%
+    {
+        top: 350px;
+    }
+
+    50%
+    {
+        top:260px;
+    }
+    
+    100%
+    {
+        top :350px
+    }
+
+}
+
+
+
+#monsters 
+{
+    width :20px;
+    height :40px ;
+    position: relative;
+    top :310px;
+    left : 580px ;
+    background-color: black;
+    animation : block 3s infinite linear;
+
+
+}
+
+
+@keyframes  block{
+        0%
+        {
+            left:580px;
+        }
+        100%
+        {
+            left :-20px
+        }
+}
+        
+
+.tran
+{
+    transform: translateX(1px);
+}
+
+#porte
+{
+    width: 40px;
+    height: 70px;
+    position: relative;
+    top: 260px;
+    left : 569px ;
+    background-color: burlywood;
+
+}
